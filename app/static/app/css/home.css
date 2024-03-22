@@ -1,0 +1,132 @@
+/* Estilo personalizado para el color de fondo del navbar (azul similar al del Gobierno de Chile) */
+.navbar-custom {
+    background-color: #0a132d; /* Azul similar al Gobierno de Chile */
+}
+
+/* Estilo para el logotipo */
+.navbar-custom .navbar-brand img {
+    background-color: #ffffff; /* Fondo blanco para el logotipo */
+    padding: 0px; /* Espacio alrededor del logotipo */
+    border-radius: 50%; /* Bordes redondeados para crear un círculo */
+}
+
+/* Estilo personalizado para el color de enlaces en el navbar */
+.navbar-custom .navbar-nav .nav-link {
+    color: #FFFFFF; /* Color de texto blanco */
+}
+
+/* Estilo personalizado para el enlace "Iniciar Sesión" */
+.navbar-custom .navbar-nav .nav-link.login-link {
+    margin-right: 20px; /* Añade margen a la derecha para separar del borde de la página */
+}
+
+/* Estilo personalizado para el color de enlaces en estado hover */
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #CCCCCC; /* Color de texto gris claro en hover */
+}
+
+
+
+/* Estilo para los enlaces dentro del footer */
+.footer a {
+    color: #FFFFFF; /* Color de texto blanco para enlaces */
+
+}
+
+#access {
+    top: 300px;
+    right: 0px;
+    position: fixed;
+    text-align: center;
+    z-index: 999;
+    background: #ffffff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 05px;
+}
+
+.navLink:hover {
+    transform: scale(1.2);
+  }
+
+  .navLink {
+    transition: all 200ms linear;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #c1d9ee;
+    background: linear-gradient(225deg, #d3eeff, #b1c8e0);
+    box-shadow: -5px 5px 16px #a5bad1,
+      5px -5px 16px #ddedff;
+  }
+
+  .navLink i {
+    font-size: 2em;
+  }
+
+  @media screen and (max-width:425px) {
+    .navLink i {
+      font-size: 1.5em;
+    }
+
+    .navLink {
+      line-height: 1;
+    }
+
+    .navLabel {
+      display: none;
+    }
+  }
+
+  .navLink a {
+    text-decoration: none;
+    color: #204063;
+  }
+
+  .smallContainer {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #c1d9ee;
+  }
+
+  .navLabel {
+    font-size: 12px;
+  }
+
+  .navLinkActive * {
+    color: #fff !important;
+  }
+
+  .navLinkActive {
+    background: #3d5f80;
+  }
+
+
+  .navbar-custom .navbar-nav .nav-link.login-link {
+    color: #ffffff;
+    /* Color de texto blanco */
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .footer {
+    background-color: #1e3680;
+    color: #fff;
+    padding: 1em;
+    margin-top: auto;
+    padding-top: 40px;
+  }
+
+
+
+
+
+
+
+
+
